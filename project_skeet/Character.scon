@@ -1,0 +1,777 @@
+{
+	"entity": [
+		{
+			"animation": [
+				{
+					"gline": [],
+					"id": 0,
+					"interval": 100,
+					"length": 2500,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": 9
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": 10
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"parent": 1,
+										"timeline": 11
+									}
+								],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 9.999999406318238e-7,
+										"abs_pivot_x": 0.319149,
+										"abs_pivot_y": 0.863636,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 53.32121267373469,
+										"abs_y": 149.437323251325,
+										"file": 10,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "back_shoe",
+										"timeline": "8",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 9.999999406318238e-7,
+										"abs_pivot_x": 0.482759,
+										"abs_pivot_y": 0.952381,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 53.06557373807516,
+										"abs_y": 94.30950301015343,
+										"file": 11,
+										"folder": 0,
+										"id": 1,
+										"key": 0,
+										"name": "back_lowerleg",
+										"timeline": "7",
+										"z_index": "1"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 359.99999999999994,
+										"abs_pivot_x": 0.227273,
+										"abs_pivot_y": 0.940476,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 34.06557317503963,
+										"abs_y": 34.19672185643567,
+										"file": 9,
+										"folder": 0,
+										"id": 2,
+										"key": 0,
+										"name": "back_upperleg",
+										"timeline": "6",
+										"z_index": "2"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 359.99999899999995,
+										"abs_pivot_x": 0.297872,
+										"abs_pivot_y": 0.818182,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -32.900530201468726,
+										"abs_y": 150.29779355911234,
+										"file": 4,
+										"folder": 0,
+										"id": 3,
+										"key": 0,
+										"name": "front_shoe",
+										"timeline": "4",
+										"z_index": "3"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 359.99999999999994,
+										"abs_pivot_x": 0.675676,
+										"abs_pivot_y": 0.936508,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -17.396770722665586,
+										"abs_y": 96.17749253547079,
+										"file": 5,
+										"folder": 0,
+										"id": 4,
+										"key": 0,
+										"name": "front_lowerleg",
+										"timeline": "5",
+										"z_index": "4"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 359.99999999999994,
+										"abs_pivot_x": 0.717949,
+										"abs_pivot_y": 0.946237,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -5.5245897137187425,
+										"abs_y": 29.327868894272527,
+										"file": 2,
+										"folder": 0,
+										"id": 5,
+										"key": 0,
+										"name": "front_upperleg",
+										"timeline": "3",
+										"z_index": "5"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.508333,
+										"abs_pivot_y": 0.211538,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 13.000000146456301,
+										"abs_y": 31.936507518376835,
+										"file": 7,
+										"folder": 0,
+										"id": 6,
+										"key": 0,
+										"name": "body",
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "6"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 359.99999999999994,
+										"abs_pivot_x": 0.511494,
+										"abs_pivot_y": 0.025000000000000022,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 17.000000377537557,
+										"abs_y": -82.99999990026328,
+										"file": 0,
+										"folder": 0,
+										"id": 7,
+										"key": 0,
+										"name": "head",
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "7"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 359.9999999999999,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 44.99999988405002,
+										"abs_y": -149.00000044079013,
+										"file": 1,
+										"folder": 0,
+										"id": 8,
+										"key": 0,
+										"name": "single_eye",
+										"parent": 2,
+										"timeline": "2",
+										"z_index": "8"
+									}
+								]
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 9
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": 10
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"parent": 1,
+										"timeline": 11
+									}
+								],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "8",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"timeline": "7",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"timeline": "6",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 0,
+										"timeline": "4",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 0,
+										"timeline": "5",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 0,
+										"timeline": "3",
+										"z_index": "5"
+									},
+									{
+										"id": 6,
+										"key": 0,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "6"
+									},
+									{
+										"id": 7,
+										"key": 0,
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "7"
+									},
+									{
+										"id": 8,
+										"key": 0,
+										"parent": 2,
+										"timeline": "2",
+										"z_index": "8"
+									}
+								],
+								"time": 1005
+							}
+						]
+					},
+					"name": "idle",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 268.622963,
+										"file": 7,
+										"folder": 0,
+										"x": -1.4848740000000014,
+										"y": -0.3207309999999996
+									},
+									"spin": 0
+								}
+							],
+							"name": "body",
+							"obj": 0
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 270.23103,
+										"file": 0,
+										"folder": 0,
+										"x": -5.481185000000003,
+										"y": -6.102611
+									},
+									"spin": 0
+								}
+							],
+							"name": "head",
+							"obj": 1
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 263.659808,
+										"file": 1,
+										"folder": 0,
+										"x": 4.2547869999999985,
+										"y": 0.5102699999999827
+									},
+									"spin": 0
+								}
+							],
+							"name": "single_eye",
+							"obj": 2
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 359.99999999999994,
+										"file": 2,
+										"folder": 0,
+										"x": -5.5245897137187425,
+										"y": -29.327868894272527
+									},
+									"spin": 0
+								}
+							],
+							"name": "front_upperleg",
+							"obj": 3
+						},
+						{
+							"id": 4,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 359.99999899999995,
+										"file": 4,
+										"folder": 0,
+										"x": -32.900530201468726,
+										"y": -150.29779355911234
+									},
+									"spin": 0
+								}
+							],
+							"name": "front_shoe",
+							"obj": 4
+						},
+						{
+							"id": 5,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 359.99999999999994,
+										"file": 5,
+										"folder": 0,
+										"x": -17.396770722665586,
+										"y": -96.17749253547079
+									},
+									"spin": 0
+								}
+							],
+							"name": "front_lowerleg",
+							"obj": 5
+						},
+						{
+							"id": 6,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 359.99999999999994,
+										"file": 9,
+										"folder": 0,
+										"x": 34.06557317503963,
+										"y": -34.19672185643567
+									},
+									"spin": 0
+								}
+							],
+							"name": "back_upperleg",
+							"obj": 6
+						},
+						{
+							"id": 7,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 9.999999406318238e-7,
+										"file": 11,
+										"folder": 0,
+										"x": 53.06557373807516,
+										"y": -94.30950301015343
+									},
+									"spin": 0
+								}
+							],
+							"name": "back_lowerleg",
+							"obj": 7
+						},
+						{
+							"id": 8,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 9.999999406318238e-7,
+										"file": 10,
+										"folder": 0,
+										"x": 53.32121267373469,
+										"y": -149.437323251325
+									},
+									"spin": 0
+								}
+							],
+							"name": "back_shoe",
+							"obj": 8
+						},
+						{
+							"id": 9,
+							"key": [
+								{
+									"bone": {
+										"angle": 91.37703699999997,
+										"x": 12.643678,
+										"y": -30.45977
+									},
+									"id": 0,
+									"spin": 0
+								},
+								{
+									"bone": {
+										"angle": 91.37703699999997,
+										"x": 12.643678000000001,
+										"y": -38.901328441558434
+									},
+									"id": 1,
+									"spin": 0,
+									"time": 1005
+								}
+							],
+							"name": "bone_000",
+							"obj": 9,
+							"object_type": "bone"
+						},
+						{
+							"id": 10,
+							"key": [
+								{
+									"bone": {
+										"angle": 358.391933,
+										"x": 118.97259399999997,
+										"y": -1.1352819999999528
+									},
+									"id": 0,
+									"spin": -1
+								},
+								{
+									"bone": {
+										"angle": 356.5236693105247,
+										"x": 113.77928905755896,
+										"y": -1.0104429564572985
+									},
+									"id": 1,
+									"time": 1005
+								}
+							],
+							"name": "bone_001",
+							"obj": 10,
+							"object_type": "bone"
+						},
+						{
+							"id": 11,
+							"key": [
+								{
+									"bone": {
+										"angle": 6.571221999999921,
+										"x": 56.462741,
+										"y": -34.83008399999997
+									},
+									"id": 0,
+									"spin": 0
+								}
+							],
+							"name": "bone_002",
+							"obj": 11,
+							"object_type": "bone"
+						}
+					]
+				}
+			],
+			"character_map": [],
+			"id": 0,
+			"name": "franky",
+			"obj_info": [
+				{
+					"frames": [
+						{
+							"file": 7,
+							"folder": 0
+						}
+					],
+					"name": "franky_body",
+					"realname": "body",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 0,
+							"folder": 0
+						}
+					],
+					"name": "franky_head",
+					"realname": "head",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 1,
+							"folder": 0
+						}
+					],
+					"name": "franky_single_eye",
+					"realname": "single_eye",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 2,
+							"folder": 0
+						}
+					],
+					"name": "franky_front_upperleg",
+					"realname": "front_upperleg",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 4,
+							"folder": 0
+						}
+					],
+					"name": "franky_front_shoe",
+					"realname": "front_shoe",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 5,
+							"folder": 0
+						}
+					],
+					"name": "franky_front_lowerleg",
+					"realname": "front_lowerleg",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 9,
+							"folder": 0
+						}
+					],
+					"name": "franky_back_upperleg",
+					"realname": "back_upperleg",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 11,
+							"folder": 0
+						}
+					],
+					"name": "franky_back_lowerleg",
+					"realname": "back_lowerleg",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 10,
+							"folder": 0
+						}
+					],
+					"name": "franky_back_shoe",
+					"realname": "back_shoe",
+					"type": "sprite"
+				},
+				{
+					"h": 10,
+					"name": "franky_bone_000",
+					"realname": "bone_000",
+					"type": "bone",
+					"w": 119.575
+				},
+				{
+					"h": 10,
+					"name": "franky_bone_001",
+					"realname": "bone_001",
+					"type": "bone",
+					"w": 142.53
+				},
+				{
+					"h": 10,
+					"name": "franky_bone_002",
+					"realname": "bone_002",
+					"type": "bone",
+					"w": 15.6127
+				}
+			]
+		}
+	],
+	"folder": [
+		{
+			"file": [
+				{
+					"height": 160,
+					"id": 0,
+					"name": "Frank/head.png",
+					"pivot_x": 0.511494,
+					"pivot_y": 0.025000000000000022,
+					"width": 174
+				},
+				{
+					"height": 14,
+					"id": 1,
+					"name": "Frank/single_eye.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 13
+				},
+				{
+					"height": 93,
+					"id": 2,
+					"name": "Frank/front_upperleg.png",
+					"pivot_x": 0.717949,
+					"pivot_y": 0.946237,
+					"width": 39
+				},
+				{
+					"height": 60,
+					"id": 3,
+					"name": "Frank/front_upperarm.png",
+					"pivot_x": 0.229167,
+					"pivot_y": 0.933333,
+					"width": 48
+				},
+				{
+					"height": 22,
+					"id": 4,
+					"name": "Frank/front_shoe.png",
+					"pivot_x": 0.297872,
+					"pivot_y": 0.818182,
+					"width": 47
+				},
+				{
+					"height": 63,
+					"id": 5,
+					"name": "Frank/front_lowerleg.png",
+					"pivot_x": 0.675676,
+					"pivot_y": 0.936508,
+					"width": 37
+				},
+				{
+					"height": 75,
+					"id": 6,
+					"name": "Frank/front_lowerarm.png",
+					"pivot_x": 0.152174,
+					"pivot_y": 0.72,
+					"width": 92
+				},
+				{
+					"height": 156,
+					"id": 7,
+					"name": "Frank/body.png",
+					"pivot_x": 0.508333,
+					"pivot_y": 0.211538,
+					"width": 120
+				},
+				{
+					"height": 54,
+					"id": 8,
+					"name": "Frank/back_upperarm.png",
+					"pivot_x": 0.0862069,
+					"pivot_y": 0.833333,
+					"width": 58
+				},
+				{
+					"height": 84,
+					"id": 9,
+					"name": "Frank/back_upperleg.png",
+					"pivot_x": 0.227273,
+					"pivot_y": 0.940476,
+					"width": 44
+				},
+				{
+					"height": 22,
+					"id": 10,
+					"name": "Frank/back_shoe.png",
+					"pivot_x": 0.319149,
+					"pivot_y": 0.863636,
+					"width": 47
+				},
+				{
+					"height": 63,
+					"id": 11,
+					"name": "Frank/back_lowerleg.png",
+					"pivot_x": 0.482759,
+					"pivot_y": 0.952381,
+					"width": 29
+				},
+				{
+					"height": 48,
+					"id": 12,
+					"name": "Frank/back_lowerarm.png",
+					"pivot_x": 0.0921053,
+					"pivot_y": 0.729167,
+					"width": 76
+				}
+			],
+			"id": 0,
+			"name": "Frank"
+		},
+		{
+			"file": [
+				{
+					"height": 111,
+					"id": 0,
+					"name": "Assets/ak47light.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 244
+				},
+				{
+					"height": 61,
+					"id": 1,
+					"name": "Assets/handgun.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 110
+				}
+			],
+			"id": 1,
+			"name": "Assets"
+		}
+	],
+	"generator": "BrashMonkey Spriter",
+	"generator_version": "r9",
+	"scon_version": "1.0"
+}

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r9">
+    <folder id="0" name="Frank">
+        <file id="0" name="Frank/head.png" width="174" height="160" pivot_x="0.511494" pivot_y="0.025"/>
+        <file id="1" name="Frank/single_eye.png" width="13" height="14" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="2" name="Frank/front_upperleg.png" width="39" height="93" pivot_x="0.717949" pivot_y="0.946237"/>
+        <file id="3" name="Frank/front_upperarm.png" width="48" height="60" pivot_x="0.229167" pivot_y="0.933333"/>
+        <file id="4" name="Frank/front_shoe.png" width="47" height="22" pivot_x="0.297872" pivot_y="0.818182"/>
+        <file id="5" name="Frank/front_lowerleg.png" width="37" height="63" pivot_x="0.675676" pivot_y="0.936508"/>
+        <file id="6" name="Frank/front_lowerarm.png" width="92" height="75" pivot_x="0.152174" pivot_y="0.72"/>
+        <file id="7" name="Frank/body.png" width="120" height="156" pivot_x="0.508333" pivot_y="0.211538"/>
+        <file id="8" name="Frank/back_upperarm.png" width="58" height="54" pivot_x="0.0862069" pivot_y="0.833333"/>
+        <file id="9" name="Frank/back_upperleg.png" width="44" height="84" pivot_x="0.227273" pivot_y="0.940476"/>
+        <file id="10" name="Frank/back_shoe.png" width="47" height="22" pivot_x="0.319149" pivot_y="0.863636"/>
+        <file id="11" name="Frank/back_lowerleg.png" width="29" height="63" pivot_x="0.482759" pivot_y="0.952381"/>
+        <file id="12" name="Frank/back_lowerarm.png" width="76" height="48" pivot_x="0.0921053" pivot_y="0.729167"/>
+    </folder>
+    <folder id="1" name="Assets">
+        <file id="0" name="Assets/ak47light.png" width="244" height="111" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="Assets/handgun.png" width="110" height="61" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="franky">
+        <obj_info name="franky_front_upperarm" realname="front_upperarm" type="sprite">
+            <frames>
+                <i folder="0" file="3"/>
+            </frames>
+        </obj_info>
+        <obj_info name="franky_front_lowerarm" realname="front_lowerarm" type="sprite">
+            <frames>
+                <i folder="0" file="6"/>
+            </frames>
+        </obj_info>
+        <obj_info name="franky_bone_003" realname="bone_003" type="bone" w="56.372" h="10"/>
+        <obj_info name="franky_bone_004" realname="bone_004" type="bone" w="64.9987" h="10"/>
+        <animation id="0" name="idle_w_rifle" length="2500" interval="100">
+            <mainline>
+                <key id="0">
+                    <bone_ref id="0" timeline="2" key="0"/>
+                    <bone_ref id="1" parent="0" timeline="3" key="0"/>
+                    <object_ref id="0" parent="1" name="front_lowerarm" folder="0" file="6" abs_x="-24.015417" abs_y="51.663654" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" parent="0" name="front_upperarm" folder="0" file="3" abs_x="-42.555572" abs_y="77.174624" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="1000">
+                    <bone_ref id="0" timeline="2" key="1"/>
+                    <bone_ref id="1" parent="0" timeline="3" key="1"/>
+                    <object_ref id="0" parent="1" timeline="1" key="1" z_index="0"/>
+                    <object_ref id="1" parent="0" timeline="0" key="1" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="front_upperarm">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="2.299971" y="-2.598022" angle="68.702646"/>
+                </key>
+                <key id="1" time="1000" spin="0">
+                    <object folder="0" file="3" x="2.299971" y="-2.598022" angle="68.702646"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="1" name="front_lowerarm">
+                <key id="0" spin="0">
+                    <object folder="0" file="6" x="-6.065625" y="4.161534" angle="29.842213"/>
+                </key>
+                <key id="1" time="1000" spin="0">
+                    <object folder="0" file="6" x="-6.065625" y="4.161534" angle="29.842213"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="2" name="bone_003" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="-29.970326" y="76.261128" angle="291.297354"/>
+                </key>
+                <key id="1" time="1000" spin="0">
+                    <bone x="-30.583823" y="54.788736" angle="291.297354"/>
+                </key>
+            </timeline>
+            <timeline id="3" obj="3" name="bone_004" object_type="bone">
+                <key id="0" spin="-1">
+                    <bone x="57.065534" y="2.596018" angle="38.860433"/>
+                </key>
+                <key id="1" time="1000">
+                    <bone x="57.065534" y="2.596018" angle="34.274769"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="idle_w_handgun" length="2500" interval="100">
+            <mainline>
+                <key id="0">
+                    <bone_ref id="0" timeline="2" key="0"/>
+                    <bone_ref id="1" parent="0" timeline="3" key="0"/>
+                    <object_ref id="0" parent="1" name="front_lowerarm" folder="0" file="6" abs_x="-21.020045" abs_y="53.315644" abs_angle="353.974004" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" parent="0" name="front_upperarm" folder="0" file="3" abs_x="-42.555572" abs_y="77.174624" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="1000">
+                    <bone_ref id="0" timeline="2" key="1"/>
+                    <bone_ref id="1" parent="0" timeline="3" key="1"/>
+                    <object_ref id="0" parent="1" timeline="1" key="1" z_index="0"/>
+                    <object_ref id="1" parent="0" timeline="0" key="1" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="front_upperarm">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="2.299971" y="-2.598022" angle="68.702646"/>
+                </key>
+                <key id="1" time="1000" spin="0">
+                    <object folder="0" file="3" x="2.299971" y="-2.598022" angle="68.702646"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="1" name="front_lowerarm">
+                <key id="0" spin="0">
+                    <object folder="0" file="6" x="-6.065625" y="4.161534" angle="29.842213"/>
+                </key>
+                <key id="1" time="1000" spin="0">
+                    <object folder="0" file="6" x="-6.065625" y="4.161534" angle="29.842213"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="2" name="bone_003" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="-29.970326" y="76.261128" angle="291.297354"/>
+                </key>
+                <key id="1" time="1000" spin="0">
+                    <bone x="-30.583823" y="54.788736" angle="291.297354"/>
+                </key>
+            </timeline>
+            <timeline id="3" obj="3" name="bone_004" object_type="bone">
+                <key id="0">
+                    <bone x="57.065534" y="2.596018" angle="32.834437"/>
+                </key>
+                <key id="1" time="1000" spin="-1">
+                    <bone x="57.065534" y="2.596018" angle="34.274769"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

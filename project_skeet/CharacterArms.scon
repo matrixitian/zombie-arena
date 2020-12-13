@@ -1,0 +1,612 @@
+{
+	"entity": [
+		{
+			"animation": [
+				{
+					"gline": [],
+					"id": 0,
+					"interval": 100,
+					"length": 2500,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": 2
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": 3
+									}
+								],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.152174,
+										"abs_pivot_y": 0.72,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -10.01540840312069,
+										"abs_y": -30.663653625399952,
+										"file": 6,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "front_lowerarm",
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.229167,
+										"abs_pivot_y": 0.933333,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -31.55555536504423,
+										"abs_y": -73.1746034464668,
+										"file": 3,
+										"folder": 0,
+										"id": 1,
+										"key": 0,
+										"name": "front_upperarm",
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "1"
+									}
+								]
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 2
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": 3
+									}
+								],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "1"
+									}
+								],
+								"time": 1000
+							}
+						]
+					},
+					"name": "idle_w_rifle",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 68.70264600000002,
+										"file": 3,
+										"folder": 0,
+										"x": 2.299970999999937,
+										"y": -2.59802199999999
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 68.70264600000002,
+										"file": 3,
+										"folder": 0,
+										"x": 2.299970999999939,
+										"y": -2.598021999999987
+									},
+									"spin": 0,
+									"time": 1000
+								}
+							],
+							"name": "front_upperarm",
+							"obj": 0
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 29.842213000000015,
+										"file": 6,
+										"folder": 0,
+										"x": -6.065625000000028,
+										"y": 4.161534000000018
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 29.842213000000015,
+										"file": 6,
+										"folder": 0,
+										"x": -6.065625000000033,
+										"y": 4.161534000000017
+									},
+									"spin": 0,
+									"time": 1000
+								}
+							],
+							"name": "front_lowerarm",
+							"obj": 1
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"bone": {
+										"angle": 291.297354,
+										"x": -29.970325812631934,
+										"y": 76.26112773431606
+									},
+									"id": 0,
+									"spin": 0
+								},
+								{
+									"bone": {
+										"angle": 291.297354,
+										"x": -30.583823123938217,
+										"y": 54.788735540231485
+									},
+									"id": 1,
+									"spin": 0,
+									"time": 1000
+								}
+							],
+							"name": "bone_003",
+							"obj": 2,
+							"object_type": "bone"
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"bone": {
+										"angle": 38.860433,
+										"x": 57.06553399999994,
+										"y": 2.5960180000000075
+									},
+									"id": 0,
+									"spin": -1
+								},
+								{
+									"bone": {
+										"angle": 34.27476899999999,
+										"x": 57.06553400000001,
+										"y": 2.596017999999998
+									},
+									"id": 1,
+									"time": 1000
+								}
+							],
+							"name": "bone_004",
+							"obj": 3,
+							"object_type": "bone"
+						}
+					]
+				},
+				{
+					"gline": [],
+					"id": 1,
+					"interval": 100,
+					"length": 2500,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": 2
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": 3
+									}
+								],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 353.97400379287717,
+										"abs_pivot_x": 0.152174,
+										"abs_pivot_y": 0.72,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -9.301968820166568,
+										"abs_y": -30.96196542189788,
+										"file": 6,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "front_lowerarm",
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.229167,
+										"abs_pivot_y": 0.933333,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -31.555555365044246,
+										"abs_y": -73.17460344646686,
+										"file": 3,
+										"folder": 0,
+										"id": 1,
+										"key": 0,
+										"name": "front_upperarm",
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "1"
+									}
+								]
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 2
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": 3
+									}
+								],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "1"
+									}
+								],
+								"time": 1000
+							}
+						]
+					},
+					"name": "idle_w_handgun",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 68.70264600000002,
+										"file": 3,
+										"folder": 0,
+										"x": 2.2999709999998794,
+										"y": -2.598021999999983
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 68.70264600000002,
+										"file": 3,
+										"folder": 0,
+										"x": 2.299970999999862,
+										"y": -2.5980219999999496
+									},
+									"spin": 0,
+									"time": 1000
+								}
+							],
+							"name": "front_upperarm",
+							"obj": 0
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 29.842213000000015,
+										"file": 6,
+										"folder": 0,
+										"x": -6.065625000000036,
+										"y": 4.161534000000043
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 29.842213000000015,
+										"file": 6,
+										"folder": 0,
+										"x": -6.0656250000000425,
+										"y": 4.161534000000048
+									},
+									"spin": 0,
+									"time": 1000
+								}
+							],
+							"name": "front_lowerarm",
+							"obj": 1
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"bone": {
+										"angle": 291.297354,
+										"x": -29.970325812631934,
+										"y": 76.26112773431606
+									},
+									"id": 0,
+									"spin": 0
+								},
+								{
+									"bone": {
+										"angle": 291.297354,
+										"x": -30.583823123938217,
+										"y": 54.788735540231485
+									},
+									"id": 1,
+									"spin": 0,
+									"time": 1000
+								}
+							],
+							"name": "bone_003",
+							"obj": 2,
+							"object_type": "bone"
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"bone": {
+										"angle": 32.83443679287717,
+										"x": 57.06553399999994,
+										"y": 2.5960180000000075
+									},
+									"id": 0
+								},
+								{
+									"bone": {
+										"angle": 34.27476899999999,
+										"x": 57.065533999999985,
+										"y": 2.5960180000000346
+									},
+									"id": 1,
+									"spin": -1,
+									"time": 1000
+								}
+							],
+							"name": "bone_004",
+							"obj": 3,
+							"object_type": "bone"
+						}
+					]
+				}
+			],
+			"character_map": [],
+			"id": 0,
+			"name": "franky",
+			"obj_info": [
+				{
+					"frames": [
+						{
+							"file": 3,
+							"folder": 0
+						}
+					],
+					"name": "franky_front_upperarm",
+					"realname": "front_upperarm",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 6,
+							"folder": 0
+						}
+					],
+					"name": "franky_front_lowerarm",
+					"realname": "front_lowerarm",
+					"type": "sprite"
+				},
+				{
+					"h": 10,
+					"name": "franky_bone_003",
+					"realname": "bone_003",
+					"type": "bone",
+					"w": 56.372
+				},
+				{
+					"h": 10,
+					"name": "franky_bone_004",
+					"realname": "bone_004",
+					"type": "bone",
+					"w": 64.9987
+				}
+			]
+		}
+	],
+	"folder": [
+		{
+			"file": [
+				{
+					"height": 160,
+					"id": 0,
+					"name": "Frank/head.png",
+					"pivot_x": 0.511494,
+					"pivot_y": 0.025000000000000022,
+					"width": 174
+				},
+				{
+					"height": 14,
+					"id": 1,
+					"name": "Frank/single_eye.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 13
+				},
+				{
+					"height": 93,
+					"id": 2,
+					"name": "Frank/front_upperleg.png",
+					"pivot_x": 0.717949,
+					"pivot_y": 0.946237,
+					"width": 39
+				},
+				{
+					"height": 60,
+					"id": 3,
+					"name": "Frank/front_upperarm.png",
+					"pivot_x": 0.229167,
+					"pivot_y": 0.933333,
+					"width": 48
+				},
+				{
+					"height": 22,
+					"id": 4,
+					"name": "Frank/front_shoe.png",
+					"pivot_x": 0.297872,
+					"pivot_y": 0.818182,
+					"width": 47
+				},
+				{
+					"height": 63,
+					"id": 5,
+					"name": "Frank/front_lowerleg.png",
+					"pivot_x": 0.675676,
+					"pivot_y": 0.936508,
+					"width": 37
+				},
+				{
+					"height": 75,
+					"id": 6,
+					"name": "Frank/front_lowerarm.png",
+					"pivot_x": 0.152174,
+					"pivot_y": 0.72,
+					"width": 92
+				},
+				{
+					"height": 156,
+					"id": 7,
+					"name": "Frank/body.png",
+					"pivot_x": 0.508333,
+					"pivot_y": 0.211538,
+					"width": 120
+				},
+				{
+					"height": 54,
+					"id": 8,
+					"name": "Frank/back_upperarm.png",
+					"pivot_x": 0.0862069,
+					"pivot_y": 0.833333,
+					"width": 58
+				},
+				{
+					"height": 84,
+					"id": 9,
+					"name": "Frank/back_upperleg.png",
+					"pivot_x": 0.227273,
+					"pivot_y": 0.940476,
+					"width": 44
+				},
+				{
+					"height": 22,
+					"id": 10,
+					"name": "Frank/back_shoe.png",
+					"pivot_x": 0.319149,
+					"pivot_y": 0.863636,
+					"width": 47
+				},
+				{
+					"height": 63,
+					"id": 11,
+					"name": "Frank/back_lowerleg.png",
+					"pivot_x": 0.482759,
+					"pivot_y": 0.952381,
+					"width": 29
+				},
+				{
+					"height": 48,
+					"id": 12,
+					"name": "Frank/back_lowerarm.png",
+					"pivot_x": 0.0921053,
+					"pivot_y": 0.729167,
+					"width": 76
+				}
+			],
+			"id": 0,
+			"name": "Frank"
+		},
+		{
+			"file": [
+				{
+					"height": 111,
+					"id": 0,
+					"name": "Assets/ak47light.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 244
+				},
+				{
+					"height": 61,
+					"id": 1,
+					"name": "Assets/handgun.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 110
+				}
+			],
+			"id": 1,
+			"name": "Assets"
+		}
+	],
+	"generator": "BrashMonkey Spriter",
+	"generator_version": "r9",
+	"scon_version": "1.0"
+}
